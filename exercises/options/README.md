@@ -19,3 +19,6 @@ Option types are very common in Rust code, as they have a number of uses:
 - [Option Enum Documentation](https://doc.rust-lang.org/std/option/enum.Option.html)
 - [if let](https://doc.rust-lang.org/rust-by-example/flow_control/if_let.html)
 - [while let](https://doc.rust-lang.org/rust-by-example/flow_control/while_let.html)
+
+match可以处理多种情况，=>左侧是模式，右侧是匹配后要做的处理
+match还可以当unwrap用，比如Some(x,y)=>Point，println!({x},{y})之类的。
