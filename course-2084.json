@@ -2,8 +2,8 @@
   "schema": 1,
   "courseId": 2084,
   "repository": "LearningOS/2026a-rustling-Bekry123",
-  "commit": "d735dfd4bcfa25ac5557c4784bfa5887ec0ab309",
-  "score": 46,
+  "commit": "2b2c4a3c18b60e493b96d1a6a6732341e03a8b58",
+  "score": 49,
   "totalScore": 110,
   "exercises": [
     {
@@ -310,23 +310,23 @@
     {
       "name": "hashmaps1",
       "max": 1,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 1
+      "score": 1,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "hashmaps2",
       "max": 1,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 1
+      "score": 1,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "hashmaps3",
       "max": 1,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 1
+      "score": 1,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "quiz2",
@@ -778,9 +778,9 @@
     }
   ],
   "student": "Bekry123",
-  "runId": "41157580890",
+  "runId": "41188827124",
   "runAttempt": "1",
   "upload": {
-    "status": "accepted"
+    "status": "pending"
   }
 }
