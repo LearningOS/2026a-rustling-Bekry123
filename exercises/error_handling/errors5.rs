@@ -22,14 +22,15 @@
 // Execute `rustlings hint errors5` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
 use std::error;
 use std::fmt;
 use std::num::ParseIntError;
 
 // TODO: update the return type of `main()` to make this compile.
-fn main() -> Result<(), Box<dyn ???>> {
+//dyn是动态派发，通常指的是一个trait，本题是可能出现两种错误类型，但是返回类型只能有一种，有没有两种错误类型共有的类型呢？
+//它们都是错误类，都实现了Error这个trait,dyn擦掉具体类型
+fn main() -> Result<(), Box<dyn std::error::Error>> {
     let pretend_user_input = "42";
     let x: i64 = pretend_user_input.parse()?;
     println!("output={:?}", PositiveNonzeroInteger::new(x)?);
